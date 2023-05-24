@@ -23,7 +23,7 @@ export default function AdicionarPessoa() {
 
   return (
     <View style={styles.container}>
-      <Text>Oi</Text>
+      <Text style={styles.text1} >Adicionar Pessoa</Text>
 
       <TextInput label="Nome" value={nome} onChangeText={setNome} />
       <Button onPress={handleAdicionarPessoa}>Adicionar Pessoa</Button>

@@ -23,7 +23,7 @@ export default function AdicionarFruta() {
 
   return (
     <View style={styles.container}>
-      <Text>Adicionar Frutas</Text>
+      <Text style={styles.text1}>Adicionar Frutas</Text>
 
       <TextInput label="Nome" value={nome} onChangeText={setNome} />
       <Button onPress={handleAdicionarFruta}>Adicionar Frutas</Button>
