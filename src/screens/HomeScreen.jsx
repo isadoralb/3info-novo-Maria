@@ -12,6 +12,9 @@ export default function HomeScreen({ navigation }) {
       <Button Button style={styles.button} onPress={() => navigation.navigate("AdicionarFruta")}>
         Adicionar Fruta
       </Button>
+      <Button Button style={styles.button} onPress={() => navigation.navigate("AdicionarCor")}>
+        Adicionar Cor
+      </Button>
     </View>
   );
 }
